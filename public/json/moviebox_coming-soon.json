@@ -1,0 +1,50 @@
+{
+	"status": 2,
+	"data": [ {
+		"bannerId": 153,
+		"actionType": 2,
+		"actionData": "{\"url\":\"https://m.maizuo.com/mz-act/active/cVyFOD378977\"}",
+		"imgUrl": "https://static.maizuo.com/v5/upload/9addfd373969682b2fb4ebd1df60030e.jpg",
+		"masterTitle": "",
+		"slaveTitle": "",
+		"displayOrder": 0,
+		"bindBusinessId": "",
+		"cityIds": "0",
+		"name": "",
+		"displayTimes": 0,
+		"slaveImgUrl": "",
+		"startTime": "1551888000",
+		"endTime": "1552838399"
+	}, {
+		"bannerId": 58,
+		"actionType": 2,
+		"actionData": "{\"url\":\"https://m.maizuo.com/mz-act/active/hxjMKu675879\"}",
+		"imgUrl": "https://static.maizuo.com/b03a32d20eac5438d8d130714d4141b9.jpg",
+		"masterTitle": "",
+		"slaveTitle": "",
+		"displayOrder": 0,
+		"bindBusinessId": "",
+		"cityIds": "0",
+		"name": "",
+		"displayTimes": 0,
+		"slaveImgUrl": "",
+		"startTime": "1552406400",
+		"endTime": "1553443199"
+	}, {
+		"bannerId": 148,
+		"actionType": 2,
+		"actionData": "{\"url\":\"https://m.maizuo.com/mz-act/active/Eiogub778336\"}",
+		"imgUrl": "https://static.maizuo.com/v5/upload/697f24495c5c042e31e639f09cba515a.jpg",
+		"masterTitle": "",
+		"slaveTitle": "",
+		"displayOrder": 0,
+		"bindBusinessId": "",
+		"cityIds": "0",
+		"name": "",
+		"displayTimes": 0,
+		"slaveImgUrl": "",
+		"startTime": "1552320000",
+		"endTime": "1552751999"
+	}],
+	"msg": "success"
+}

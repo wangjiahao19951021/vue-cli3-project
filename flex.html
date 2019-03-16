@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <style> 
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        ul li, ol li{
+            list-style: none;
+        }
+        .box1{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            border: 1px solid red;
+            justify-content: center;  
+            /* justify-content属性定义了项目在主轴上的对齐方式。*/
+            /* flex-start（默认值）：左对齐
+            flex-end：右对齐
+            center： 居中
+            space-between：两端对齐，项目之间的间隔都相等。
+            space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。 */
+            align-items: center;
+            /* align-items属性定义项目在交叉轴上如何对齐*/
+            /* flex-start：交叉轴的起点对齐。
+            flex-end：交叉轴的终点对齐。
+            center：交叉轴的中点对齐。
+            baseline: 项目的第一行文字的基线对齐。
+            stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度 */
+        }
+        .box1_1{
+            width: 100px;
+            height: 30px;
+            border: 1px solid red;
+        }
+
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;  
+            border: 1px solid red;           
+        }
+        ul li{
+            text-align: center;
+            line-height: 30px;
+            list-style: none;
+            border:1px solid yellow;
+        }
+        .box2{
+            display: flex;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box1_1"></div>
+        <div class="box1_1"></div>
+    </div>
+
+    <ul>
+        <li>音乐</li>
+        <li>音乐</li>
+        <li>音乐</li>
+    </ul><div class="box2">111</div>
+    
+</body>
+<script>
+        axios.get('https://www.cnblogs.com/mvc/blog/ViewCountCommentCout.aspx?postId=6644644')
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+        axios.get('http://bang.360.cn/youpin/doGetMianxiList?pn=0&page_size=20&num=20', )
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+        axios.get('https://movie.douban.com/ithil_j/activity/movie_annual2017')
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+        var Datee = Date.now()
+        var c = Datee.toString()
+        console.log(Datee)
+        console.log(c)
+        console.log(typeof c)
+        var b = c.substr(5, 8)
+        console.log(b)
+        // http://int-wechat.hualife.cc/microClass/courses/getCarouselList
+        axios.get('https://liveapi.videojj.com/api/v1/getUser?platformId=56dd27a8b311dff60073e645&platformUserId=234184&cate=', {
+            params: {
+                _v: b
+            }
+        })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+    </script>
+</html>
